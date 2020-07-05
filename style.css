@@ -1,0 +1,95 @@
+body, ul, li, p{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+
+li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+    background-color: #053C5E;
+}
+
+
+/*Página inicial*/
+.menu{
+  display: flex;
+
+}
+
+.menu li{
+  margin-left: 10px;
+}
+
+.menu li {
+  display: block;
+  padding: 10px;
+  
+}
+ img{
+    margin: 1px;
+    width: 110px;
+    align-items: center;
+}
+  
+  a:hover{
+    color: #F26430;
+    font-weight:bold;
+  }
+
+
+  main{
+    color: black;
+  }
+
+.footer-home{
+  text-align: center;
+  width: 100%;
+  background-color: #053C5E;
+  position: absolute;
+  bottom:0;
+}
+
+
+
+
+
+  /*Página currículo cv.html*/
+.cv{
+  text-align: center;
+}
+
+.curriculo{
+  width: 50%;
+  height: 100%
+}
+
+.footer{
+  text-align: center;
+  width: 100%;
+    background-color: #053C5E;
+    position: relative;
+    bottom:0;
+    
+  
+ 
+}
+
+.textoRodape{
+  
+  color: white;
+    margin: 0;
+    padding: 30px;
+}
