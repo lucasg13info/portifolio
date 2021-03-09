@@ -81,3 +81,30 @@ font-weight: bold;
 font-size: 22px;
 margin-top: 110px;
 }
+
+
+
+
+/*Media*/
+
+@media (max-width: 1028px) {
+  .mainSobre{
+    height: 90vh;
+    
+
+  }
+  }
+
+  @media (max-width: 950px) {
+    .mainSobre{
+      height: 60vh;
+      
+  
+    }
+    }
+
+    @media (max-width: 790px) {
+      .mainSobre{
+        height: 35vh;   
+      }
+      }
