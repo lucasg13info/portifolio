@@ -28,7 +28,7 @@ header{
 .h1-home{
   font-size: 55px;
   font-weight: bold;
-  margin: 75px;
+  margin: 100px;
 }
 
 .paragrafo-home{
@@ -110,7 +110,7 @@ header{
     display: flex;
   /*  background-color: chartreuse; */
     align-items: center;
-    margin: 124px;
+    margin: 72px;
     justify-content: space-around;
     margin-top: 150px;
 
@@ -160,22 +160,17 @@ header{
 
 
 
-
+/*Footer*/
 .footer-home{
-    text-align: center;
-    width: 100%;
+    display: flex;
+    justify-content: center;
     height: 250px;
     background-color: #053C5E;
   }
 
-.textoRodape{
+.copyrightRodape{
   color: white;
-  font-size: 15px;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 110px;
 }
-
-
-/*Página Sobre*/
-/*Página Portifólio*/
-/*Página contato*/
-
-
