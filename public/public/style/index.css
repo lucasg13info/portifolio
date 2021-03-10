@@ -24,9 +24,6 @@ header{
 
 
 /*Página Home*/
-
-
-
 .menu{
   display: flex;
   margin-right: 120px;
@@ -59,7 +56,6 @@ main{
     
 }
 
-
 .manchete-home{
     text-align: center;
     height: 0px;
@@ -91,7 +87,6 @@ main{
 
 
   /*Main*/
-
 .h1-home{
     font-size: 40px;
     font-weight: bold;
