@@ -299,7 +299,7 @@ main{
           
         }
         
-        @media (max-width: 355px) {
+        @media (max-width: 390px) {
           .logo{
             margin: 8px;
             margin-left: 40px;
