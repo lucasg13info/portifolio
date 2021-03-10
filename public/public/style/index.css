@@ -43,7 +43,7 @@ header{
     align-items: center;
 }
   
-a:hover{
+.aMenu:hover{
     color: #F26430;
     font-weight:bold;
 }
@@ -145,7 +145,7 @@ main{
 
 .tecnologias-home{
   text-align: center;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
 
 }
 
