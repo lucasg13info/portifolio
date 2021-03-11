@@ -226,6 +226,11 @@ li{
   font-size: 28px;
   margin: 75px 0 0;
 }
+
+.paragrafo-home {
+  font-size: 17px;
+}
+
 .imagem-lucas-home{
   width: 250px;
   height: 250px;
@@ -233,6 +238,10 @@ li{
 }
 .texto-lado-direito-pag-home{
   margin-right: 0px;
+  font-size: 14px;
 }
 
-
+.imagem-baixo{
+  width: 25px;
+    height: 25px;
+}
