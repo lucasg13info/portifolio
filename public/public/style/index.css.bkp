@@ -1,0 +1,357 @@
+/*Publico*/
+body, ul, li, p{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    font-size: 17px;
+    font-family: arial;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+    background-color: #053C5E;
+}
+
+.menu{
+  display: flex;
+  margin-right: 120px;
+}
+
+.menu li{
+  margin-left: 10px;
+}
+
+.menu li {
+  display: block;
+  padding: 10px;
+  
+}
+.logo{
+    margin: 8px;
+    margin-left: 80px;
+    width: 70px;
+    align-items: center;
+}
+  
+.aMenu:hover{
+    color: #F26430;
+    font-weight:bold;
+}
+
+/*Página Home*/
+
+main{
+    color: black;
+    
+}
+
+.manchete-home{
+    text-align: center;
+    height: 0px;
+}
+  
+.frase-coronel-home{
+    background-color: #f1f1f1;
+    color: #000000;
+
+    font-family: Roboto;
+    font-size: 17px;
+}
+  
+.logo-cv-home{
+    width: 60px;
+    margin: -9px;
+    padding: 10px;
+}
+
+.texto-cv-home{
+    text-decoration: none;
+}
+
+.pdf{
+    width: 50px;
+    margin: -9px;
+    padding: 10px;
+}
+
+
+  /*Main*/
+.h1-home{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 100px;
+}
+
+.paragrafo-home{
+  font-size: 20px;
+}
+
+
+.imagem-lucas-home{
+  width: 350px;
+  height: 350px;
+  margin-left: 90px
+}
+
+.section-conteudo-principla-home{
+    display: flex;
+    align-items: center;
+    margin: 72px;
+    justify-content: space-around;
+    margin-top: 150px;
+
+}
+
+.texto-lado-direito-pag-home{
+  margin-right: 130px;
+}
+
+.logo-email-home{
+  width: 25px;
+  height: 25px;
+}
+
+.logo-whats-home{
+  width: 25px;
+  height: 25px;
+}
+
+.logo-pontoMapa-home{
+  width: 25px;
+  height: 30px;
+}
+
+
+.img-linkedin-gitgub{
+  display: flex;
+  justify-content: start; 
+}
+
+.imagem-baixo{
+  width: 40px;
+  height: 40px;
+}
+
+
+.tecnologias-home{
+  text-align: center;
+  /* background-color: #f1f1f1; */
+
+}
+
+
+
+/*Footer*/
+.footer-home{
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    background-color: #053C5E;
+  }
+
+.copyrightRodape{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 70px;
+}
+
+
+/*Media*/
+@media (max-width: 1200px) {
+  .imagem-lucas-home{
+    width: 310px;
+    height: 310px;
+    margin-left: 100px
+  }
+  .section-conteudo-principla-home{
+    display: flex;
+    align-items: center;
+    margin: 72px;
+    justify-content: space-around;
+    margin-top: 150px;
+
+}
+.texto-lado-direito-pag-home{
+    margin-right: 140px;
+    font-size: 15px;
+
+  }
+  }
+
+
+@media (max-width: 1040px) {
+  .imagem-lucas-home{
+    width: 290px;
+    height: 290px;
+    margin-left: 100px
+  }
+  .section-conteudo-principla-home{
+    display: flex;
+    align-items: center;
+    margin: 72px;
+    justify-content: space-around;
+    margin-top: 150px;
+
+}
+.texto-lado-direito-pag-home{
+    margin-right: 140px;
+    font-size: 13px;
+
+  }
+  }
+
+
+  @media (max-width: 910px) {
+    .imagem-lucas-home{
+      width: 270px;
+      height: 270px;
+      margin-left: 75px
+    }
+    .section-conteudo-principla-home{
+      display: flex;
+      align-items: center;
+      margin: 72px;
+      justify-content: space-around;
+      margin-top: 150px;
+  
+  }
+  .texto-lado-direito-pag-home{
+      margin-right: 100px;
+      font-size: 12px;
+  
+    }
+    }
+
+
+    @media (max-width: 850px) {
+      .h1-home{
+        font-size: 35px;
+        font-weight: bold;
+        margin: 100px;
+    }
+    .paragrafo-home{
+      font-size: 15px;
+    }
+       
+      .imagem-lucas-home{
+        width: 270px;
+        height: 270px;
+        margin-left: 30px
+      }
+      .section-conteudo-principla-home{
+        display: flex;
+        align-items: center;
+        margin: 72px;
+        justify-content: space-around;
+        margin-top: 150px;
+    
+    }
+    .texto-lado-direito-pag-home{
+        margin-right: 55px;
+        font-size: 12px;
+    
+      }
+      }
+
+
+      @media (max-width: 730px) {
+        .h1-home{
+          font-size: 35px;
+          font-weight: bold;
+          margin: 100px;
+      }
+      .paragrafo-home{
+        font-size: 15px;
+      }
+         
+        .imagem-lucas-home{
+          width: 250px;
+          height: 250px;
+          margin-left: 222px;
+          margin-top: 54px;
+          
+        }
+        .section-conteudo-principla-home{
+          display: inline;
+          align-items: center;
+      
+      }
+      .texto-lado-direito-pag-home{
+        text-align: center;
+          font-size: 12px;
+      
+        }
+        }
+        .img-linkedin-gitgub{
+          display: flex;
+          justify-content: center;
+          
+        }
+        
+        @media (max-width: 410px) {
+          .logo{
+            margin: 8px;
+            margin-left: 40px;
+            width: 40px;
+            align-items: center;
+        }
+          .menu{
+            display: none;
+            margin-right: 120px;
+          }
+          .frase-coronel-home{
+            background-color: #f1f1f1;
+            color: #000000;
+        
+            font-family: Roboto;
+            font-size: 11px;
+        }
+
+          .h1-home{
+            font-size: 18px;
+    font-weight: bold;
+    margin-top: 32px;
+    width: 231px;
+    margin-left: 60px;
+            
+        }
+        .paragrafo-home{
+          font-size: 10px;
+        }
+           
+          .imagem-lucas-home{
+            width: 165px;
+            height: 165px;
+            margin-left: 94px;
+            margin-top: 44px;
+}
+            
+          }
+          .section-conteudo-principla-home{
+            display: inline;
+            align-items: center;
+        
+        }
+        .texto-lado-direito-pag-home{
+          text-align: center;
+            font-size: 10px;
+        
+          }
+          
+          .img-linkedin-gitgub{
+            display: flex;
+            justify-content: center;
+            
+          }
+          
