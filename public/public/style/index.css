@@ -177,8 +177,10 @@ main{
 
  }
 @media (max-width: 420px) { ... } /* 656px */
-@media (max-width: 600px) { ... } /* 752px */
-@media (max-width: 801px) {
+
+
+
+@media (max-width: 600px) { 
   .menu {
     display: flex;
     margin-right: 60px;
@@ -192,19 +194,45 @@ main{
   font-size: 32px;
   margin: 85px 0 0;
 }
-
-
-
-
-
-@media (max-width: 1025px) {
-  .imagem-lucas-home{
-    width: 280px;
-    height: 280px;
-    margin-left: 80px
-  }
-  
-  .texto-lado-direito-pag-home{
-    margin-right: 0px;
-  }
+.imagem-lucas-home{
+  width: 230px;
+  height: 230px;
+  margin-left: 55px;
 }
+}
+
+
+
+@media (max-width: 801px) {
+.menu {
+    margin-right: 80px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+li{
+  font-size: 14px;
+}
+
+.logo{
+  width: 64px;
+}
+
+.frase-coronel-home{
+  font-size: 15px;
+}
+
+.h1-home {
+  font-size: 28px;
+  margin: 75px 0 0;
+}
+.imagem-lucas-home{
+  width: 250px;
+  height: 250px;
+  margin-left: 15px;
+}
+.texto-lado-direito-pag-home{
+  margin-right: 0px;
+}
+
+
