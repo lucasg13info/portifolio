@@ -168,42 +168,11 @@ main{
 
 
 /*Media*/
-/* 592px */
-@media (max-width: 320px) { 
-  .menu{
-    display: none;
-  }
-
-
- }
-@media (max-width: 420px) { ... } /* 656px */
 
 
 
-@media (max-width: 600px) { 
-  .menu {
-    display: flex;
-    margin-right: 60px;
-    margin-top: 10px;
-}
-.frase-coronel-home{
-  font-size: 15px;
-}
 
-.h1-home {
-  font-size: 32px;
-  margin: 85px 0 0;
-}
-.imagem-lucas-home{
-  width: 230px;
-  height: 230px;
-  margin-left: 55px;
-}
-}
-
-
-
-@media (max-width: 801px) {
+@media (max-width: 800px) {
 .menu {
     margin-right: 80px;
     margin-top: 10px;
@@ -245,3 +214,54 @@ li{
   width: 25px;
     height: 25px;
 }
+}
+
+
+
+
+
+
+@media (max-width: 650px) { 
+.menu {
+    display: none;
+    /*HAMBURGER*/
+}
+.frase-coronel-home{
+  font-size: 13px;
+}
+
+.h1-home {
+  font-size: 26px;
+  margin: 50px 0 0;
+}
+.section-conteudo-principla-home {
+  display: flex;
+  margin: 60px;
+  margin-top: 100px;
+}
+
+.imagem-lucas-home{
+  width: 235px;
+  height: 235px;
+  margin-left: 15px;
+}
+.texto-lado-direito-pag-home{
+  font-size: 13px;
+}
+
+.imagem-baixo{
+  width: 25px;
+  height: 25px;
+}
+}
+
+
+@media (max-width: 499px) { } /* 656px */
+
+@media (max-width: 320px) { 
+  .menu{
+    display: none;
+  }
+
+
+ }
