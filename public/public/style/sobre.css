@@ -7,10 +7,11 @@ body, ul, li, p{
   font-family: arial;
 }
 
+
+/*Header*/
 li a{
 text-decoration: none;
 color: white;
-
 }
 
 header{
@@ -34,8 +35,8 @@ margin-left: 10px;
 .menu li {
 display: block;
 padding: 10px;
-
 }
+
 .logo{
   margin: 8px;
   margin-left: 80px;
@@ -43,11 +44,23 @@ padding: 10px;
   align-items: center;
 }
 
-a:hover{
+.aMenu:hover{
   color: #F26430;
   font-weight:bold;
 }
 
+.hamburguer{
+display: none;
+font-size:30px;
+color: white;
+margin-right: 10px;
+}
+
+/*Main*/
+.emConstrucaoSobre{
+  width: 50%;
+  margin-left: 20%;
+}
 
 /*Footer*/
 .footer-home{
@@ -63,30 +76,3 @@ font-weight: bold;
 font-size: 15px;
 margin-top: 70px;
 }
-
-
-
-
-/*Media*/
-
-@media (max-width: 1028px) {
-  .mainSobre{
-    height: 90vh;
-    
-
-  }
-  }
-
-  @media (max-width: 950px) {
-    .mainSobre{
-      height: 60vh;
-      
-  
-    }
-    }
-
-    @media (max-width: 790px) {
-      .mainSobre{
-        height: 35vh;   
-      }
-      }

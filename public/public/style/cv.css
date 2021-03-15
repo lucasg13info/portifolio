@@ -1,190 +1,82 @@
 /*Publico*/
 body, ul, li, p{
-    margin: 0;
-    padding: 0px;
-    list-style: none;
-    font-size: 1.2rem;
-    font-family: arial;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  font-size: 17px;
+  font-family: arial;
 }
 
-li a{
-  text-decoration: none;
-  color: white;
 
+/*Header*/
+li a{
+text-decoration: none;
+color: white;
 }
 
 header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0;
-    align-items: center;
-    background-color: #053C5E;
-}
-
-
-/*Página Home*/
-
-.h1-home{
-  font-size: 55px;
-  font-weight: bold;
-  margin: 60px;
-}
-
-.paragrafo-home{
-  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+  background-color: #053C5E;
 }
 
 .menu{
-  display: flex;
+display: flex;
+margin-right: 120px;
 }
 
 .menu li{
-  margin-left: 10px;
+margin-left: 10px;
 }
 
 .menu li {
-  display: block;
-  padding: 10px;
-  
-}
- img{
-    margin: 1px;
-    width: 110px;
-    align-items: center;
-}
-  
-  a:hover{
-    color: #F26430;
-    font-weight:bold;
-  }
-
-
-  main{
-    color: black;
-    
-  }
-
-
-  .manchete-home{
-    text-align: center;
-    height: 0px;
-    
-    
-  }
-  
-  .frase-coronel-home{
-    margin: 0;
-    padding: 0px;
-
-    background-color: #EEEEEE;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    
-
-    color: #000000;
-
-  }
-  .logo-cv-home{
-    width: 60px;
-    margin: -9px;
-    padding: 10px;
-  }
-
-  .texto-cv-home{
-    text-decoration: none;
-    
-  }
-
-  .pdf{
-    width: 60px;
-    margin: -9px;
-    padding: 10px;
-  }
-
-
-  .section-conteudo-principla-home{
-    display: flex;
-  /*  background-color: chartreuse; */
-    align-items: center;
-    margin: 124px;
-    justify-content: space-around;
-    margin-top: 150px;
-
-  }
-
-
-.imagem-lucas-home{
-  width: 375px;
-  height: 390px;
-  margin-left: 80px
+display: block;
+padding: 10px;
 }
 
-.texto-lado-direito-pag-home{
-  margin-right: 200px;
+.logo{
+  margin: 8px;
+  margin-left: 80px;
+  width: 70px;
+  align-items: center;
 }
 
-.logo-email-home{
-  width: 25px;
-  height: 25px;
+.aMenu:hover{
+  color: #F26430;
+  font-weight:bold;
 }
 
-.logo-whats-home{
-  width: 25px;
-  height: 25px;
+.hamburguer{
+display: none;
+font-size:30px;
+color: white;
+margin-right: 10px;
 }
-
-.logo-pontoMapa-home{
-  width: 25px;
-  height: 30px;
-}
-
-
-.img-linkedin-gitgub{
-  display: flex;
-  justify-content: start; 
-}
-
-.imagem-baixo{
-  width: 40px;
-  height: 40px;
-}
-
-  .footer-home{
-    text-align: center;
-    width: 100%;
-    background-color: #053C5E;
-    position: relative;
-    bottom:0;
-    
-  }
 
 /*Página currículo cv.html*/
   .cv{
-    text-align: center;
-    
-  }
+    text-align: center;   
+}
   
-  .curriculo{
+.curriculo{
     width: 960px;
     height: 1224px;
+}
   
-  }
-  
-  .footer{
-      text-align: center;
-      width: 100%;
-      background-color: #053C5E;
-      position: relative;
-      bottom:0; 
-  }
-  
-  .textoRodape{
-    
-    color: white;
-      margin: 0;
-      padding: 30px;
-  }
+/*Footer*/
+.footer-home{
+  display: flex;
+  justify-content: center;
+  height: 140px;
+  background-color: #053C5E;
+}
+
+.copyrightRodape{
+color: white;
+font-weight: bold;
+font-size: 15px;
+margin-top: 70px;
+}
