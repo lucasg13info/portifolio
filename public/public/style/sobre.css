@@ -64,15 +64,70 @@ margin-right: 10px;
 
 /*Footer*/
 .footer-home{
-  display: flex;
   justify-content: center;
   height: 140px;
   background-color: #053C5E;
+  width: 100%;
+  text-align: center;
+
+  position: relative; /*Solução para fixar o footer no fim da pag*/
+  bottom: 0px; /*Solução para fixar o footer no fim da pag*/
 }
 
 .copyrightRodape{
 color: white;
 font-weight: bold;
 font-size: 15px;
-margin-top: 70px;
+position: relative;
+top: 50%;
 }
+
+
+
+/*Media*/
+@media (max-width: 800px) {
+  .footer-home{
+    position: fixed; /*Solução para fixar o footer no fim da pag*/
+    bottom: 0px; /*Solução para fixar o footer no fim da pag*/
+  }
+.copyrightRodape{
+    position: relative;
+    top: 40%;
+    }
+  }
+  
+  
+  @media (max-width: 650px) { 
+    .footer-home{
+      position: fixed; /*Solução para fixar o footer no fim da pag*/
+      bottom: 0px; /*Solução para fixar o footer no fim da pag*/
+    }
+  .copyrightRodape{
+    position: relative;
+    top: 40%;
+      }
+  }
+  
+  
+  @media (max-width: 574px) { 
+    .footer-home{
+      position: fixed; /*Solução para fixar o footer no fim da pag*/
+      bottom: 0px; /*Solução para fixar o footer no fim da pag*/
+    }
+  .copyrightRodape{
+    position: relative;
+    top: 40%;
+      }
+  } 
+  
+  
+  @media (max-width: 380px) { 
+    .footer-home{
+      position: fixed; /*Solução para fixar o footer no fim da pag*/
+      bottom: 0px; /*Solução para fixar o footer no fim da pag*/
+    }
+  .copyrightRodape{
+    position: relative;
+    top: 40%;
+      }
+  }
