@@ -268,9 +268,13 @@ li{
     margin-left: 42px;
   }
   
-.h1-home{
-  background-color: red;
+.pdf{
+  margin-top: 29px;
+  padding: 0;
+  width: 30px;
+  margin-left: -3px;
 }
+
   .hamburguer{
     margin-right: 60px;
   }
@@ -299,6 +303,9 @@ li{
   justify-content: center;
   margin: -37px 0 2px;
 }
+.principais-tecnologias{
+  padding:0px
+}
 } 
 
 
@@ -319,6 +326,7 @@ li{
 .h1-home {
   font-size: 19px;
   margin: 72px 0 0;
+
 }
 
 .paragrafo-home {
