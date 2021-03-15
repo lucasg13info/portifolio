@@ -217,6 +217,7 @@ li{
 .menu {
     display: none;
     /*HAMBURGER*/
+    image-rendering: url(../imagens/hamburguer.png);
 }
 .frase-coronel-home{
   font-size: 13px;
