@@ -48,6 +48,13 @@ header{
     font-weight:bold;
 }
 
+.hamburguer{
+  display: none;
+  font-size:30px;
+  color: white;
+  margin-right: 10px;
+}
+
 /*Página Home*/
 
 main{
@@ -217,8 +224,14 @@ li{
 .menu {
     display: none;
     /*HAMBURGER*/
-    image-rendering: url(../imagens/hamburguer.png);
+  
 }
+
+.hamburguer{
+  display: block;
+  margin-right: 65px;
+}
+
 .frase-coronel-home{
   font-size: 13px;
 }
@@ -250,6 +263,10 @@ li{
 
 
 @media (max-width: 574px) { 
+
+  .hamburguer{
+    margin-right: 85px;
+  }
   .section-conteudo-principla-home {
     flex-direction: column;
   }
@@ -280,21 +297,28 @@ li{
 
 @media (max-width: 380px) { 
 .logo{
-  width: 54px;;
+  width: 54px;
+  margin-left: 10px;
+
 }
+
 .pdf{
   display: none;
 }
+
 .frase-coronel-home {
   font-size: 11px;
 }
+
 .h1-home {
   font-size: 19px;
   margin: 72px 0 0;
 }
+
 .paragrafo-home {
   font-size: 14px;
 }
+
 .imagem-lucas-home {
   width: 200px;
   height: 200px;
