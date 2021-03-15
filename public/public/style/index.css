@@ -263,9 +263,16 @@ li{
 
 
 @media (max-width: 574px) { 
-
+  .logo{
+    width: 54px;
+    margin-left: 42px;
+  }
+  
+.h1-home{
+  background-color: red;
+}
   .hamburguer{
-    margin-right: 85px;
+    margin-right: 60px;
   }
   .section-conteudo-principla-home {
     flex-direction: column;
@@ -299,7 +306,6 @@ li{
 .logo{
   width: 54px;
   margin-left: 10px;
-
 }
 
 .pdf{
