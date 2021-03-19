@@ -7,7 +7,6 @@ body, ul, li, p{
   font-family: arial;
 }
 
-
 /*Header*/
 li a{
 text-decoration: none;
@@ -55,6 +54,43 @@ font-size:30px;
 color: white;
 margin-right: 10px;
 }
+
+
+/*Página Home*/
+main{
+  color: black;   
+}
+
+.manchete-home{
+  text-align: center;
+  height: 0px;
+}
+
+.frase-coronel-home{
+  background-color: #f1f1f1;
+  color: #000000;
+
+  font-family: Roboto;
+  font-size: 17px;
+}
+
+.logo-cv-home{
+  width: 60px;
+  margin: -9px;
+  padding: 10px;
+}
+
+.texto-cv-home{
+  text-decoration: none;
+}
+
+.pdf{
+  width: 50px;
+  margin: -9px;
+  padding: 10px;
+}
+
+
 
 /*Main*/
 .emConstrucaoSobre{
