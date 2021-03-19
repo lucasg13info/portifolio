@@ -57,21 +57,19 @@ margin-right: 10px;
 
 
 /*Página Home*/
-main{
-  color: black;   
+.manchete-home1{
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.nome-lucas-rodrigues-estefano{
+  font-size: 17px;
+  border: 10px;
 }
 
 .manchete-home{
   text-align: center;
   height: 0px;
-}
-
-.frase-coronel-home{
-  background-color: #f1f1f1;
-  color: #000000;
-
-  font-family: Roboto;
-  font-size: 17px;
 }
 
 .logo-cv-home{
