@@ -72,11 +72,6 @@ margin-right: 10px;
   height: 0px;
 }
 
-.logo-cv-home{
-  width: 60px;
-  margin: -9px;
-  padding: 10px;
-}
 
 .texto-cv-home{
   text-decoration: none;
@@ -84,7 +79,6 @@ margin-right: 10px;
 
 .pdf{
   width: 50px;
-  margin: -9px;
   padding: 10px;
 }
 
