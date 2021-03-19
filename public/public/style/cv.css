@@ -58,12 +58,22 @@ margin-right: 10px;
 
 /*Main*/
 /*Página currículo cv.html*/
+
+.pag-cv{
+  text-align: center;
+  margin-top: 40px;
+
+  font-size: 30px;
+  font-weight: bold;
+}
 .cv{
   text-align: center;   
 }
 
 .curriculo{
   width: 500px;
+
+  margin-top: 30px;
 }
 
 
@@ -74,6 +84,8 @@ margin-right: 10px;
   justify-content: center;
   height: 140px;
   background-color: #053C5E;
+
+  margin-top: 30px;
 }
 
 .copyrightRodape{
@@ -117,6 +129,11 @@ margin: 75px 0 0;
 display: block;
 margin-right: 65px;
 }
+
+.pag-cv{
+  font-size: 25px;
+}
+
 .curriculo{
   width: 430px;
 }
@@ -131,6 +148,10 @@ margin-right: 65px;
 
 .hamburguer{
   margin-right: 60px;
+}
+
+.pag-cv{
+  font-size: 23px;
 }
 .curriculo{
   width: 350px;
@@ -153,8 +174,18 @@ margin-right: 65px;
 width: 54px;
 margin-left: 10px;
 }
-.curriculo{
-  width: 300px;
+
+.pag-cv{
+  font-size: 20px;
+  margin-top: 30px;
 }
 
+.curriculo{
+  width: 300px;
+  margin-top: 20px;
+}
+.footer-home{
+  margin-top:90px;
+  
+}
 }
