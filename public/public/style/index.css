@@ -57,7 +57,7 @@ header{
 }
 
 
-/*Página Home*/
+/*Exclusivo da Home - Frase Cel de Oliveira*/
 main{
     color: black;   
 }
@@ -167,7 +167,7 @@ main{
 }
 
 
-/*Media*/
+/*Media Query*/
 @media (max-width: 800px) {
 .menu {
     margin-right: 80px;
