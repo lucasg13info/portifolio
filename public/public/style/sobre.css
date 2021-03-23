@@ -72,7 +72,6 @@ margin-right: 10px;
   height: 0px;
 }
 
-
 .texto-cv-home{
   text-decoration: none;
 }
@@ -83,13 +82,13 @@ margin-right: 10px;
 }
 
 
-
 /*Main*/
 .emConstrucaoSobre{
   width: 50%;
   margin-left: 20%;
   margin-top: 10%;
 }
+
 
 /*Footer*/
 .footer-home{
@@ -113,19 +112,20 @@ top: 50%;
 
 
 
-/*Media*/
+/*Media Query*/
 @media (max-width: 800px) {
   .footer-home{
     position: fixed; /*Solução para fixar o footer no fim da pag*/
     bottom: 0px; /*Solução para fixar o footer no fim da pag*/
   }
+
 .copyrightRodape{
     position: relative;
     top: 40%;
     }
   }
   
-  
+
   @media (max-width: 650px) { 
     .footer-home{
       position: fixed; /*Solução para fixar o footer no fim da pag*/
@@ -137,7 +137,7 @@ top: 50%;
       }
   }
   
-  
+
   @media (max-width: 574px) { 
     .footer-home{
       position: fixed; /*Solução para fixar o footer no fim da pag*/

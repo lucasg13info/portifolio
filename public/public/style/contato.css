@@ -94,10 +94,10 @@ top: 50%;
     position: relative;
     top: 40%;
     }
-  }
+}
   
   
-  @media (max-width: 650px) { 
+@media (max-width: 650px) { 
     .footer-home{
       position: fixed; /*Solução para fixar o footer no fim da pag*/
       bottom: 0px; /*Solução para fixar o footer no fim da pag*/
@@ -106,10 +106,10 @@ top: 50%;
     position: relative;
     top: 40%;
       }
-  }
+}
   
   
-  @media (max-width: 574px) { 
+@media (max-width: 574px) { 
     .footer-home{
       position: fixed; /*Solução para fixar o footer no fim da pag*/
       bottom: 0px; /*Solução para fixar o footer no fim da pag*/
@@ -118,10 +118,10 @@ top: 50%;
     position: relative;
     top: 40%;
       }
-  } 
+} 
   
   
-  @media (max-width: 380px) { 
+@media (max-width: 380px) { 
     .footer-home{
       position: fixed; /*Solução para fixar o footer no fim da pag*/
       bottom: 0px; /*Solução para fixar o footer no fim da pag*/
@@ -130,4 +130,4 @@ top: 50%;
     position: relative;
     top: 40%;
       }
-  }
+}
