@@ -82,9 +82,33 @@ margin-right: 10px;
 
 .inicio-pag{
   display: flex;
+  margin-top: 20px;
 }
 
+.conteudoEsquerda{
+  margin: 0 30px 0 35px;
+  margin-left: 100px;
+}
 
+.conteudoDireita{
+  text-align: center;
+  margin-right: 100px;
+}
+
+.imagemLucas{
+  width: 250px;
+  
+}
+
+.redesSociais{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.linkSite{
+  font-size: 13px;
+  margin-top: 1px;
+}
 .emConstrucaoSobre{
   width: 50%;
   margin-left: 20%;
