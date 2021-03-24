@@ -79,6 +79,12 @@ margin-right: 10px;
 
 
 /*Main*/
+
+.inicio-pag{
+  display: flex;
+}
+
+
 .emConstrucaoSobre{
   width: 50%;
   margin-left: 20%;
