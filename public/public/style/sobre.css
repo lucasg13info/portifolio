@@ -57,28 +57,24 @@ margin-right: 10px;
 
 
 /*Página Home*/
+/*Manchete*/
 .manchete-home1{
-  text-align: center;
   background-color: #f1f1f1;
+  text-align: center;
+
+  display: flex;
+
+  flex-direction: column;
 }
 
 .nome-lucas-rodrigues-estefano{
-  font-size: 17px;
-  border: 10px;
+  margin-top: 29px;
 }
+.pdf-cv{
+  width: 30px;
 
-.manchete-home{
-  text-align: center;
-  height: 0px;
-}
-
-.texto-cv-home{
-  text-decoration: none;
-}
-
-.pdf{
-  width: 50px;
-  padding: 10px;
+  margin-right: 870px;
+  margin-top: -122px;
 }
 
 
