@@ -128,16 +128,13 @@ margin-right: 10px;
 }
 
 
-
-
-
-
 /*Educação e Experiencia*/
 
 .educacaoExperiencia{
   display: flex;
 
-  justify-content: space-between;
+  text-align: center;
+
 }
 
 
@@ -146,10 +143,34 @@ margin-right: 10px;
   color: white;
   width: 320px;
   Height: 120px;
-  top: 1234px;
-  Left: 102px;
-  border-radius: 20px;
-  
+  border-radius: 47px 47px;
+
+  text-align: center;
+  margin-left: 10%; 
+}
+
+.experienciaProfissional{
+  margin-right: 10px;
+
+  background-color: #053C5E;
+  color: white;
+  width: 320px;
+  Height: 120px;
+  border-radius: 47px 47px;
+
+  text-align: center;
+  margin-left: 30%; 
+}
+
+.acomip{
+  background-color: #053C5E;
+  color: white;
+  width: 320px;
+  Height: 120px;
+  border-radius: 47px 47px;
+
+  text-align: center;
+  margin-left: 10%; 
 }
 
 
