@@ -92,7 +92,7 @@ margin-right: 10px;
 
 .conteudoDireita{
   text-align: center;
-  margin-right: 100px;
+  margin-right: 135px;
 }
 
 .imagemLucas{
@@ -113,6 +113,18 @@ margin-right: 10px;
   width: 50%;
   margin-left: 20%;
   margin-top: 10%;
+}
+
+.habilidades{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*Habilidades*/
+.conhecimentos{
+  margin-left: 30%;
+  margin-top: 30px;
 }
 
 
