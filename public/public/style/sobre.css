@@ -137,6 +137,9 @@ margin-right: 10px;
 
 }
 
+.educacao{
+  margin-left: 108%;
+}
 
 .faculdade{
   background-color: #053C5E;
@@ -146,8 +149,13 @@ margin-right: 10px;
   border-radius: 47px 47px;
 
   text-align: center;
-  margin-left: 10%; 
+  margin-left: 85%; 
 }
+
+.experiencia{
+  margin-left: 130%;
+}
+
 
 .experienciaProfissional{
   margin-right: 10px;
@@ -170,7 +178,7 @@ margin-right: 10px;
   border-radius: 47px 47px;
 
   text-align: center;
-  margin-left: 10%; 
+  margin-left: 130%; 
 }
 
 
