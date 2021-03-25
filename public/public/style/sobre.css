@@ -122,25 +122,19 @@ margin-right: 10px;
 
 
 /*Habilidades*/
-.conhecimentos{
-  margin-left: 30%;
-  margin-top: 30px;
-}
 
-.educacao{
+/*Experiencias */
+.contanerHabilidades{
   display: flex;
+  justify-content: center;
+  margin-top: 80px;
 }
 
-/*Educação e Experiencia*/
-
-.educacaoExperiencia{
-  
-
+.ladoEsquerdo{
+  text-align: center;
+  margin-right: 110px;
 }
 
-.educacao{
-  
-}
 
 .faculdade{
   background-color: #053C5E;
@@ -149,26 +143,11 @@ margin-right: 10px;
   Height: 120px;
   border-radius: 47px 47px;
 
-  text-align: center;
-  
+  text-align: center;  
 }
 
-.experiencia{
-  
-}
-
-
-.experienciaProfissional{
-  margin-right: 10px;
-
-  background-color: #053C5E;
-  color: white;
-  width: 320px;
-  Height: 120px;
-  border-radius: 47px 47px;
-
-  text-align: center;
-  
+.ladoDireito{
+  margin-left: 110px;
 }
 
 .acomip{
@@ -178,26 +157,6 @@ margin-right: 10px;
   Height: 120px;
   border-radius: 47px 47px;
 
-  text-align: center;
-}
-
-
-
-
-
-
-/*Experiencias Valendo */
-.contanerHabilidades{
-  display: flex;
-  justify-content: center;
-  margin-top: 80px;
-}
-
-.ladoEsquerdo{
-  text-align: center;
-}
-
-.ladoDireito{
   text-align: center;
 }
 
