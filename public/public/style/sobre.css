@@ -131,14 +131,12 @@ margin-right: 10px;
 /*Educação e Experiencia*/
 
 .educacaoExperiencia{
-  display: flex;
-
-  text-align: center;
+  
 
 }
 
 .educacao{
-  margin-left: 108%;
+  
 }
 
 .faculdade{
@@ -149,11 +147,11 @@ margin-right: 10px;
   border-radius: 47px 47px;
 
   text-align: center;
-  margin-left: 85%; 
+  
 }
 
 .experiencia{
-  margin-left: 130%;
+  
 }
 
 
@@ -167,7 +165,7 @@ margin-right: 10px;
   border-radius: 47px 47px;
 
   text-align: center;
-  margin-left: 30%; 
+  
 }
 
 .acomip{
@@ -178,7 +176,7 @@ margin-right: 10px;
   border-radius: 47px 47px;
 
   text-align: center;
-  margin-left: 130%; 
+  
 }
 
 
