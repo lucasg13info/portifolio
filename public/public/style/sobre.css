@@ -127,6 +127,9 @@ margin-right: 10px;
   margin-top: 30px;
 }
 
+.educacao{
+  display: flex;
+}
 
 /*Educação e Experiencia*/
 
@@ -176,9 +179,27 @@ margin-right: 10px;
   border-radius: 47px 47px;
 
   text-align: center;
-  
 }
 
+
+
+
+
+
+/*Experiencias Valendo */
+.contanerHabilidades{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.ladoEsquerdo{
+  text-align: center;
+}
+
+.ladoDireito{
+  text-align: center;
+}
 
 /*Footer*/
 .footer-home{
