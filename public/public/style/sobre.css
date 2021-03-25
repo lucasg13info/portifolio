@@ -122,6 +122,11 @@ margin-right: 10px;
 
 
 /*Habilidades*/
+.conhecimentos{
+  margin-left: 25%;
+  margin-top: 1%;
+
+}
 
 /*Experiencias */
 .contanerHabilidades{
@@ -146,6 +151,41 @@ margin-right: 10px;
   text-align: center;  
 }
 
+.fullsStack{
+  background-color: #053C5E;
+  color: white;
+  width: 320px;
+  Height: 120px;
+  border-radius: 47px 47px;
+
+  text-align: center;  
+
+  margin-top: 25px;
+}
+
+.certificacao{
+  background-color: #053C5E;
+  color: white;
+  width: 320px;
+  Height: 120px;
+  border-radius: 47px 47px;
+
+  text-align: center;  
+
+  margin-top: 25px;
+}
+
+.cursosOnline{
+  background-color: #053C5E;
+  color: white;
+  width: 320px;
+  Height: 120px;
+  border-radius: 47px 47px;
+
+  text-align: center;  
+
+  margin-top: 25px;
+}
 .ladoDireito{
   text-align: center;
   margin-left: 110px;
@@ -159,6 +199,20 @@ margin-right: 10px;
   border-radius: 47px 47px;
 
   text-align: center;
+  margin: auto;
+}
+
+.exercito{
+  background-color: #053C5E;
+  color: white;
+  width: 320px;
+  Height: 120px;
+  border-radius: 47px 47px;
+
+  margin-top: 25px;
+
+  text-align: center;
+  margin-left: 35px;
 }
 
 /*Footer*/
@@ -171,6 +225,8 @@ margin-right: 10px;
 
   position: relative; /*Solução para fixar o footer no fim da pag*/
   bottom: 0px; /*Solução para fixar o footer no fim da pag*/
+
+  margin-top: 50px;
 }
 
 .copyrightRodape{
