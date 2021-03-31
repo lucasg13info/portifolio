@@ -55,12 +55,26 @@ font-size:30px;
 color: white;
 margin-right: 10px;
 }
+.manchete-home1{
+  background-color: #f1f1f1;
+  text-align: center;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.contato-contato{
+  margin-top: 29px;
+}
+.pdf-cv{
+  width: 30px;
+  margin-right: 1311px;
+  margin-top: -123px;
+}
 
 /*Main*/
-.emConstrucaoSobre{
-  width: 50%;
-  margin-left: 20%;
-}
+
 
 /*Footer*/
 .footer-home{
