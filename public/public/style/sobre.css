@@ -115,20 +115,23 @@ margin-right: 10px;
   margin-top: 10%;
 }
 
+.conteudoCentral{
+  background-color: #e7f3fa;
+}
+
 .habilidades{
   text-align: center;
   font-weight: bold;
-  background-color: #f1f1f1;
+
   margin-bottom: 0%;
 }
 
 
 /*Habilidades*/
 .conhecimentos{
-  /* margin-left: 25%;
-  margin-top: 1%; */
+  margin-left: 25%; 
+  margin-top: 1%; 
 
-  background-color: #f1f1f1;
 
 }
 
