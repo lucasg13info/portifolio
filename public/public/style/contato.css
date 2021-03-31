@@ -66,14 +66,50 @@ margin-right: 10px;
 
 .contato-contato{
   margin-top: 29px;
-}
-.pdf-cv{
-  width: 30px;
-  margin-right: 1311px;
-  margin-top: -123px;
+  font-weight: bold;
 }
 
+
 /*Main*/
+.main-contato{
+  display: flex;
+
+  justify-content: center;
+  color: white;
+  
+}
+.redesSociais-contato{
+  background-color: #053C5E;
+}
+
+.email-contato-esquerda{
+  background-color: #053C5E;
+}
+
+.telefone-contato-esquerda{
+  background-color: #053C5E;
+}
+
+.nome-contato{
+  background-color: #053C5E;
+}
+
+.telefone-contato{
+  background-color: #053C5E;
+}
+
+.email-contato-direita{
+  background-color: #053C5E;
+}
+
+.deixeMensagem-contato{
+  background-color: #053C5E;
+}
+
+.enviar-contato{
+  background-color: #F26430;
+}
+
 
 
 /*Footer*/
