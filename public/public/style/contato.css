@@ -100,12 +100,20 @@ margin-right: 10px;
   border-radius: 28px;
 }
 
+.redesSociais-contato img{
+  width: 20px;
+  margin-right: 44% ;
+}
+
 .email-contato-esquerda{
   background-color: #053C5E;
   height: 30%;
   width: 200%;
 
   border-radius: 28px;
+}
+.email-contato-esquerda p{
+  text-align: center;
 }
 
 .telefone-contato-esquerda{
@@ -115,6 +123,9 @@ margin-right: 10px;
 
   border-radius: 28px;
   margin-top: 10px;
+}
+.telefone-contato-esquerda p {
+  text-align: center;
 }
 
 /*Espaço entre as div*/
@@ -142,6 +153,7 @@ margin-right: 10px;
 
   border-radius: 9px;
 }
+
 
 .email-contato-direita{
   background-color: #053C5E;
