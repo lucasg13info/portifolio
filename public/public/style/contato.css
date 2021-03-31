@@ -78,36 +78,89 @@ margin-right: 10px;
   color: white;
   
 }
+
+.ladoEsquedo-contato h2{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ladoDireito-contato h3{
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .redesSociais-contato{
   background-color: #053C5E;
+  height: 30%;
+  width: 200%;
+
+  border-radius: 28px;
 }
 
 .email-contato-esquerda{
   background-color: #053C5E;
+  height: 30%;
+  width: 200%;
+
+  border-radius: 28px;
 }
 
 .telefone-contato-esquerda{
   background-color: #053C5E;
+  height: 30%;
+  width: 200%;
+
+  border-radius: 28px;
+}
+
+/*Espaço entre as div*/
+.space-contato{
+  padding: 10%;
 }
 
 .nome-contato{
   background-color: #053C5E;
+  height: 10%;
+  width: 200%;
+
+  border-radius: 9px;
+  
 }
 
 .telefone-contato{
   background-color: #053C5E;
+  height: 10%;
+  width: 200%;
+
+  border-radius: 9px;
 }
+
+
 
 .email-contato-direita{
   background-color: #053C5E;
+  height: 10%;
+  width: 200%;
+
+  border-radius: 9px;
 }
 
 .deixeMensagem-contato{
   background-color: #053C5E;
+  height: 10%;
+  width: 200%;
+
+  border-radius: 9px;
 }
 
 .enviar-contato{
   background-color: #F26430;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 30px;
+  
 }
 
 
