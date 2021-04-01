@@ -96,7 +96,7 @@ margin-right: 10px;
 .redesSociais-contato{
   background-color: #053C5E;
   height: 30%;
-  width: 200%;
+  width: 100%;
 
   border-radius: 28px;
 }
@@ -110,34 +110,35 @@ margin-right: 10px;
 .email-contato-esquerda{
   background-color: #053C5E;
   height: 30%;
-  width: 200%;
+  width: 100%;
 
   border-radius: 28px;
+  margin-top:10px ;
 }
 .email-contato-esquerda p{
   text-align: center;
+  font-size: 12px;
 }
 
 .telefone-contato-esquerda{
   background-color: #053C5E;
   height: 30%;
-  width: 200%;
+  width: 100%;
 
   border-radius: 28px;
   margin-top: 10px;
 }
 .telefone-contato-esquerda p {
   text-align: center;
+  font-size: 14px;
 }
 
 /*Espaço entre as div*/
 .space-contato{
-  padding: 9%;
+  padding: 3%;
 }
 
 .nome-contato{
-  background-color: #053C5E;
-  
   height: 10%;
   width: 40%;
 
@@ -145,11 +146,11 @@ margin-right: 10px;
   
 }
 ::-webkit-input-placeholder {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .telefone-contato{
-  background-color: #053C5E;
+  
   height: 10%;
   width: 35%;
 
@@ -158,7 +159,7 @@ margin-right: 10px;
 
 
 .email-contato-direita{
-  background-color: #053C5E;
+  
   height: 10%;
   width: 80%;
   margin-top: 10px;
@@ -166,8 +167,8 @@ margin-right: 10px;
 }
 
 .deixeMensagem-contato{
-  background-color: #053C5E;
-  color: #f1f1f1;
+  
+  
   height: 115px;
   width: 80%;
   margin-top: 10px;
