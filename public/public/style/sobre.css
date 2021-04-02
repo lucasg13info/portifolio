@@ -117,6 +117,7 @@ margin-right: 10px;
 
 .conteudoCentral{
   background-color: #e7f3fa;
+  padding: 30px;
 }
 
 .habilidades{
@@ -193,6 +194,12 @@ margin-right: 10px;
 
   margin-top: 25px;
 }
+
+.cursosOnline p{
+  text-align: left;
+  margin-left: 10px;
+}
+
 .ladoDireito{
   text-align: center;
   margin-left: 110px;
