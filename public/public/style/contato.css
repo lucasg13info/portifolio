@@ -184,8 +184,16 @@ margin-right: 10px;
   margin-top: 10px;
 }
 
+.redes{
+  display: flex;
+  justify-items: center;
+  align-items: center;
 
+}
 
+.linkedin{
+  border-right: 10px;
+}
 /*Footer*/
 .footer-home{
   justify-content: center;
