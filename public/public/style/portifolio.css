@@ -102,10 +102,15 @@ margin-right: 10px;
 
 .containerImagem{
   border: solid 1px black;
-  padding: 50%;
+  padding: 66%;
+  
 }
 
-
+.imgEchopet {
+  width: 230px;
+  margin-top: -188px;
+  margin-left: -115px;
+}
 
 
 
