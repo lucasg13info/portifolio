@@ -129,16 +129,11 @@ margin-right: 10px;
 
 
 /*Habilidades*/
-.conhecimentos{
-  margin-left: 25%; 
-  margin-top: 1%; 
-}
-
-/*Habilidades*/
 
 .col-habilidades{
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .habilidades {
@@ -147,7 +142,6 @@ margin-right: 10px;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
   margin: 30px 0;
 
   
@@ -165,13 +159,12 @@ margin-right: 10px;
 
 .habilidade h3{
   color: #ffa000;
-  transition: 0.2s ease;
+  text-align: center;
 }
 
-.habilidade ul li{
-  outline-color: #ffa000;
-  transition: 0.2s ease;
-  
+.habilidade li{
+  margin-right: 30px;
+
 }
 
 
