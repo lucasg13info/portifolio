@@ -117,7 +117,7 @@ margin-right: 10px;
 
 .conteudoCentral{
   background-color: #e7f3fa;
-  padding: 30px;
+  padding: 48px;
 }
 
 .habilidades{
@@ -142,7 +142,7 @@ margin-right: 10px;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 30px 0;
+  margin: 18px 0;
 
   
 }
@@ -154,7 +154,7 @@ margin-right: 10px;
   box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
   border-radius: 5px;
   margin: 5px 0;
-  background-color: rgb(245, 244, 244);
+  /* background-color: rgb(245, 244, 244); */
 }
 
 .habilidade h3{
@@ -165,6 +165,10 @@ margin-right: 10px;
 .habilidade li{
   margin-right: 30px;
 
+}
+
+.habilidade ol ul {
+  padding-left: 0px
 }
 
 
