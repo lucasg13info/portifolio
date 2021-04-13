@@ -87,6 +87,7 @@ margin-right: 10px;
 .conteudoEsquerda{
   margin: 0 50px 0 35px;
   margin-left: 100px;
+  text-align: justify;
 }
 
 .conteudoDireita{
