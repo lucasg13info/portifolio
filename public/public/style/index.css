@@ -1,7 +1,4 @@
 /*Publico*/
-
-
-
 body, ul, li, p{
     margin: 0;
     padding: 0px;
@@ -18,12 +15,12 @@ li a{
 }
 
 header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0;
-    align-items: center;
-    background-color: #053C5E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+  background-color: #053C5E;
 }
 
 .menu{
@@ -48,8 +45,8 @@ header{
 }
   
 .aMenu:hover{
-    color: #F26430;
-    font-weight:bold;
+  color: #F26430;
+  font-weight:bold;
 }
 
 .hamburguer{
@@ -66,40 +63,40 @@ main{
 }
 
 .manchete-home{
-    text-align: center;
-    height: 0px;
+  text-align: center;
+  height: 0px;
 }
   
 .frase-coronel-home{
-    background-color: #f1f1f1;
-    color: #000000;
+  background-color: #f1f1f1;
+  color: #000000;
 
-    font-family: Roboto;
-    font-size: 17px;
+  font-family: Roboto;
+  font-size: 17px;
 }
   
 .logo-cv-home{
-    width: 60px;
-    margin: -9px;
-    padding: 10px;
+  width: 60px;
+  margin: -9px;
+  padding: 10px;
 }
 
 .texto-cv-home{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .pdf{
-    width: 50px;
-    margin: -9px;
-    padding: 10px;
+  width: 50px;
+  margin: -9px;
+  padding: 10px;
 }
 
 
 /*Main*/
 .h1-home{
-    font-size: 40px;
-    font-weight: bold;
-    margin: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 100px;
 }
 
 .paragrafo-home{
@@ -113,11 +110,11 @@ main{
 }
 
 .section-conteudo-principla-home{
-    display: flex;
-    align-items: center;
-    margin: 72px;
-    justify-content: space-around;
-    margin-top: 150px;
+  display: flex;
+  align-items: center;
+  margin: 72px;
+  justify-content: space-around;
+  margin-top: 150px;
 }
 
 .texto-lado-direito-pag-home{
@@ -156,10 +153,10 @@ main{
 
 /*Footer*/
 .footer-home{
-    display: flex;
-    justify-content: center;
-    height: 140px;
-    background-color: #053C5E;
+  display: flex;
+  justify-content: center;
+  height: 140px;
+  background-color: #053C5E;
   }
 
 .copyrightRodape{
@@ -218,8 +215,8 @@ li{
 
 @media (max-width: 650px) { 
 .menu {
-    display: none;
-    /*HAMBURGER - Abaixo*/
+  display: none;
+  /*HAMBURGER - Abaixo*/
 }
 
 .hamburguer{
@@ -271,21 +268,21 @@ li{
 }
 
 .hamburguer{
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 .section-conteudo-principla-home {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .texto-lado-direito-pag-home{
-    font-size: 10px;
-    margin-top: 10px;
+  font-size: 10px;
+  margin-top: 10px;
 }
 
 .logo-email-home {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .logo-whats-home {
