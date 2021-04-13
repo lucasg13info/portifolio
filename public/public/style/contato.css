@@ -60,7 +60,6 @@ margin-right: 10px;
   text-align: center;
 
   display: flex;
-
   flex-direction: column;
 }
 
@@ -76,8 +75,7 @@ margin-right: 10px;
 
   justify-content: center;
   color: white;
-  margin-top: 90px;
-  
+  margin-top: 90px; 
 }
 
 
@@ -115,6 +113,7 @@ margin-right: 10px;
   border-radius: 28px;
   margin-top:10px ;
 }
+
 .email-contato-esquerda p{
   text-align: center;
   font-size: 12px;
@@ -128,6 +127,7 @@ margin-right: 10px;
   border-radius: 28px;
   margin-top: 10px;
 }
+
 .telefone-contato-esquerda p {
   text-align: center;
   font-size: 14px;
@@ -157,9 +157,7 @@ margin-right: 10px;
   border-radius: 9px;
 }
 
-
 .email-contato-direita{
-  
   height: 10%;
   width: 80%;
   margin-top: 10px;
@@ -167,8 +165,6 @@ margin-right: 10px;
 }
 
 .deixeMensagem-contato{
-  
-  
   height: 115px;
   width: 80%;
   margin-top: 10px;
@@ -194,6 +190,7 @@ margin-right: 10px;
 .linkedin{
   margin-left: 24px;
 }
+
 /*Footer*/
 .footer-home{
   justify-content: center;
@@ -207,12 +204,13 @@ margin-right: 10px;
   bottom: 0px; /*Solução para fixar o footer no fim da pag*/
 }
 
+
 .copyrightRodape{
-color: white;
-font-weight: bold;
-font-size: 15px;
-position: relative;
-top: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  top: 50%;
 }
 
 
@@ -223,7 +221,7 @@ top: 50%;
     position: fixed; /*Solução para fixar o footer no fim da pag*/
     bottom: 0px; /*Solução para fixar o footer no fim da pag*/
   }
-.copyrightRodape{
+  .copyrightRodape{
     position: relative;
     top: 40%;
     }
@@ -231,36 +229,36 @@ top: 50%;
   
   
 @media (max-width: 650px) { 
-    .footer-home{
+  .footer-home{
       position: fixed; /*Solução para fixar o footer no fim da pag*/
       bottom: 0px; /*Solução para fixar o footer no fim da pag*/
-    }
+  }
   .copyrightRodape{
     position: relative;
     top: 40%;
-      }
+  }
 }
   
   
 @media (max-width: 574px) { 
-    .footer-home{
+  .footer-home{
       position: fixed; /*Solução para fixar o footer no fim da pag*/
       bottom: 0px; /*Solução para fixar o footer no fim da pag*/
-    }
+  }
   .copyrightRodape{
     position: relative;
     top: 40%;
-      }
+  }
 } 
   
   
 @media (max-width: 380px) { 
-    .footer-home{
+  .footer-home{
       position: fixed; /*Solução para fixar o footer no fim da pag*/
       bottom: 0px; /*Solução para fixar o footer no fim da pag*/
-    }
+  }
   .copyrightRodape{
     position: relative;
     top: 40%;
-      }
+  }
 }
