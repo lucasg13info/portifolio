@@ -168,6 +168,14 @@ margin-right: 10px;
 
 }
 
+.habilidade li:hover{
+    margin-right: 30px;
+    color: #F26430;
+   font-weight: bold;
+   box-shadow: 0px 1px 0px rgb(0 0 10 / 10%);
+
+}
+
 .habilidade ol ul {
   padding-left: 0px
 }
